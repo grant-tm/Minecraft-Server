@@ -27,41 +27,41 @@ The Bash script **script.sh** performs the following actions:
 Download and install the appropriate package from [Hashicorp's website](https://developer.hashicorp.com/terraform/downloads).
 
 ### Step 2. Install the AWS CLI
-Follow the instructions from [Amazon](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html).
+- Follow the instructions from [Amazon](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html).
 
 ### Step 3. Configure the AWS CLI
 
-Upon installing the AWS CLI, a directory called .aws is created and a file called credentials is created inside it.
+- Upon installing the AWS CLI, a directory called .aws is created and a file called credentials is created inside it.
 
-You will need to place your AWS access key ID and your secret access key in this file.
+- You will need to place your AWS access key ID and your secret access key in this file.
 
-Instructions on how to retrieve your credentials are available from [Amazon](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/getting-your-credentials.html).
+- Instructions on how to retrieve your credentials are available from [Amazon](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/getting-your-credentials.html).
 
 ### Step 3. Initialize Terraform
 
-Place the contents of this repository in their own directory.
+- Place the contents of this repository in their own directory.
 
-Navigate to the directory and run `terraform init`.
+- Navigate to the directory and run `terraform init`.
 
-This command initializes the terraform configuration, and MUST be done before attempting to execute.
+- This command initializes the terraform configuration, and MUST be done before attempting to execute.
 
 ### Step 4. Execute
 
-To have terraform create the EC2 instance, use the command `terraform apply`.
+- To have terraform create the EC2 instance, use the command `terraform apply`.
 
-It will take a minute for the EC2 instance to be created, at which point a success message "Apply complete! ..." will appear.
+- It will take a minute for the EC2 instance to be created, at which point a success message "Apply complete! ..." will appear.
 
-**Make note of the public ip address output after the success message.**
+- **Make note of the public ip address output after the success message.**
 
 ### Step 5. Connect
 
-Open the Minecraft client and ensure you are using version 1.19.4 (newer versions may not work).
+- Open the Minecraft client and ensure you are using version 1.19.4 (newer versions may not work).
 
-Select **Multiplayer**, select **Direct Connection**, paste the public ip from the previous step in the **Server Address** box, and select **Connect**.
+- Select **Multiplayer**, select **Direct Connection**, paste the public ip from the previous step in the **Server Address** box, and select **Connect**.
 
-Congratulations, you are now connected to your own Minecraft server!
+- Congratulations, you are now connected to your own Minecraft server!
 
-NOTE: It will take several minutes after Terraform completes for the Minecraft server to finish booting and allow connections.
+- NOTE: It will take several minutes after Terraform completes for the Minecraft server to finish booting and allow connections.
 
 ## References
 
