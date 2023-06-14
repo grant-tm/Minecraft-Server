@@ -73,19 +73,19 @@ NOTE: It will take several minutes after Terraform completes for the Minecraft s
 ### Terraform and AWS
 - https://developer.hashicorp.com/terraform/tutorials/aws-get-started/aws-build
 
-**Key Pairs**
-- https://registry.terraform.io/providers/hashicorp/aws/2.51.0/docs/resources/key_pair
-- https://registry.terraform.io/providers/hashicorp/aws/2.51.0/docs/resources/key_pair
+- **Key Pairs**
+  - https://registry.terraform.io/providers/hashicorp/aws/2.51.0/docs/resources/key_pair
+  - https://registry.terraform.io/providers/hashicorp/aws/2.51.0/docs/resources/key_pair
 
-**Security Groups**
-- https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/security_group
-- https://linuxhint.com/create-security-groups-aws-terraform/
+- **Security Groups**
+  - https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/security_group
+  - https://linuxhint.com/create-security-groups-aws-terraform/
 
-**Passing Scripts to EC2**
-- https://www.middlewareinventory.com/blog/terraform-aws-ec2-user_data-example/
-- https://brad-simonin.medium.com/learning-how-to-execute-a-bash-script-from-terraform-for-aws-b7fe513b6406
-- https://stackoverflow.com/questions/63978548/how-to-run-scritps-after-create-ec2-using-terraform-during-apply
-- https://www.linkedin.com/pulse/creating-key-pair-ec2-instance-running-script-using-terraform-pant/
+- **Passing Scripts to EC2**
+  - https://www.middlewareinventory.com/blog/terraform-aws-ec2-user_data-example/
+  - https://brad-simonin.medium.com/learning-how-to-execute-a-bash-script-from-terraform-for-aws-b7fe513b6406
+  - https://stackoverflow.com/questions/63978548/how-to-run-scritps-after-create-ec2-using-terraform-during-apply
+  - https://www.linkedin.com/pulse/creating-key-pair-ec2-instance-running-script-using-terraform-pant/
 
 ### Scripting
 - https://unix.stackexchange.com/questions/270953/whats-the-best-way-to-edit-a-file-with-a-bash-script
