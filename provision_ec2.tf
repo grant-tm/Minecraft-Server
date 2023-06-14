@@ -14,7 +14,7 @@ provider "aws" {
 }
 
 data "template_file" "script" {
-  template = "${file("${path.module}/scripts/script.sh")}"
+  template = "${file("${path.module}/script.sh")}"
 }
 
 resource "aws_security_group" "mc_sg" {
