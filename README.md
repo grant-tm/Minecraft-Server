@@ -55,12 +55,10 @@ It will take a minute for the EC2 instance to be created, at which point a succe
 
 ### Step 5. Connect
 
-Open the Minecraft client and ensure you are using version 1.19.4 (newer versions may not work)
+Open the Minecraft client and ensure you are using version 1.19.4 (newer versions may not work).
 
-Select **Multiplayer**, then **Direct Connect**, and paste the public ip from the previous step.
+Select **Multiplayer**, select **Direct Connection**, paste the public ip from the previous step in the **Server Address** box, and select **Connect**.
 
-Select **Connect**.
+Congratulations, you are now connected to your own Minecraft server!
 
-Congratulations, you are now connected to your own Minecraft server.
-
-NOTE: It will take several minutes after terraform completes for the Minecraft server to finish booting.
+NOTE: It will take several minutes after Terraform completes for the Minecraft server to finish booting and allow connections.
