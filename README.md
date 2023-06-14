@@ -24,7 +24,7 @@ The Bash script **script.sh** performs the following actions:
 
 ## How to Execute and Connect
 ### Step 1. Install Terraform
-Download and install the appropriate package from [Hashicorp's website](https://developer.hashicorp.com/terraform/downloads).
+- Download and install the appropriate package from [Hashicorp's website](https://developer.hashicorp.com/terraform/downloads).
 
 ### Step 2. Install the AWS CLI
 - Follow the instructions from [Amazon](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html).
