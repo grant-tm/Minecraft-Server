@@ -3,7 +3,7 @@ Automatically provision resources for and deploy a Minecraft Server on AWS using
 
 ## File Descriptions
 ### provision_ec2.tf
-The Terraform configuration file **provision_ec2.tf** creates an EC2 instance that:
+The Terraform configuration file **provision_ec2.tf** defines an EC2 instance that:
   - is located in us-west-2 region
   - runs the most recent Linux 2 AMI from AWS
   - uses a key pair I set up 
